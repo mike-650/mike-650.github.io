@@ -2562,7 +2562,6 @@ input, select, textarea {
 				}
 
 /* Image */
-
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -3917,4 +3916,15 @@ input, select, textarea {
 	display: flex;
 	align-items: center;
 	height: 55.5rem;
+}
+
+.skills {
+	background-color: rgb(220, 220, 220);
+	opacity: .91;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.skills > img {
+	margin: 7px;
 }
