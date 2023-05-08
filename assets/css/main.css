@@ -3101,7 +3101,7 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
+					margin-top: 10rem;
 					height: 50vh;
 				}
 
@@ -3914,6 +3914,7 @@ input, select, textarea {
 
 #one {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	height: 55.5rem;
 }
@@ -3927,4 +3928,12 @@ input, select, textarea {
 
 .skills > img {
 	margin: 7px;
+}
+
+.profile-pic {
+	height: fit-content;
+	margin-top: 10%;
+	margin-left: 5%;
+	border: 5px solid black;
+	border-radius: 50px;
 }
